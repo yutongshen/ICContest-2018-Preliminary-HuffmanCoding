@@ -1,0 +1,186 @@
+ncsim(64) 14.10-s005
+Linux 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64
+CPU cores: 24
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		10240 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			1024
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+LC_PAPER=lzh_TW
+LC_ADDRESS=lzh_TW
+HOSTNAME=ideal125
+LC_MONETARY=lzh_TW
+SELINUX_ROLE_REQUESTED=
+TERM=xterm-256color
+SHELL=/bin/sh
+HISTSIZE=1000
+SSH_CLIENT=140.116.245.116 54144 22
+SELINUX_USE_CURRENT_RANGE=
+LC_NUMERIC=lzh_TW
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+SSH_TTY=/dev/pts/26
+USER=yutongshen
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lz=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.bz=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.rar=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LC_TELEPHONE=lzh_TW
+MAIL=/var/spool/mail/yutongshen
+PATH=/home/nfs_cad/cadence/INCISIV/cur/tools/bin/64bit:/home/nfs_cad/cadence/INCISIV/cur/tools/bin/64bit:/home/nfs_cad/cadence/INCISIV/cur/tools/bin/64bit:/usr/bin/X11:/home/nfs_cad/synopsys/synthesis/cur/amd64/syn/bin:/home/nfs_cad/synopsys/verdi/cur/bin:/home/nfs_cad/synopsys/verdi/cur/nLint/bin:/home/nfs_cad/cadence/INCISIV/cur/tools/bin:/home/nfs_cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/home/nfs_cad/cadence/INCISIV/cur/tools/dfII/bin:/home/nfs_cad/mentor/modelsim/10.2/modeltech/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin
+LC_IDENTIFICATION=lzh_TW
+PWD=/home/yutongshen/IC_contest/ICContest106/sim
+LANG=en_US.UTF-8
+LC_MEASUREMENT=lzh_TW
+SELINUX_LEVEL_REQUESTED=
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HISTCONTROL=ignoredups
+SHLVL=2
+HOME=/home/yutongshen
+LOGNAME=yutongshen
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+SSH_CONNECTION=140.116.245.116 54144 140.116.245.125 22
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+DISPLAY=localhost:16.0
+LC_TIME=lzh_TW
+G_BROKEN_FILENAMES=1
+LC_NAME=lzh_TW
+_=/bin/tcsh
+OLDPWD=/home/yutongshen/IC_contest/ICContest106
+HOSTTYPE=x86_64-linux
+VENDOR=unknown
+OSTYPE=linux
+MACHTYPE=x86_64
+GROUP=users
+HOST=ideal125
+REMOTEHOST=140.116.245.116
+LM_LICENSE_FILE=26585@lsncku:5280@lsncku:5280@lsncku:5280@lsnchu:1717@lsncku
+MTI_VCO_MODE=64
+MGC_HOME=/home/nfs_cad/mentor/modelsim/10.2
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+LD_LIBRARY_PATH=/home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/:/home/nfs_cad/cadence/INCISIV/cur/tools/lib/64bit:/home/nfs_cad/cadence/INCISIV/cur/tools/lib:/home/nfs_cad/cadence/INCISIV/cur/tools/vtools/vfault/lib::/usr/openwin/lib:/usr/dt/lib:/usr/lib:/usr/local/lib
+SHLIB_PATH=/home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64
+SYNTHESIS=/home/nfs_cad/synopsys/synthesis/cur
+SYNOPSYS=/home/nfs_cad/synopsys/synthesis/cur
+SYN_MAN_DIR=/home/nfs_cad/synopsys/synthesis/cur/doc/syn/man
+MANPATH=/home/nfs_cad/synopsys/synthesis/cur/doc/syn/man
+_IRUNROOT_=/home/nfs_cad/cadence/INCISIV/cur/tools
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx8664.14.10.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/home/nfs_cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=-f
+argv[2]=pre_sim_4.f
+argv[3]=./tb.v
+argv[4]=../src/huffman.v
+argv[5]=../src/Counter.v
+argv[6]=../src/Sorting.v
+argv[7]=../src/TreeMaker.v
+argv[8]=../src/CodeSender.v
+argv[9]=+define+tb4
+argv[10]=+nc64bit
+argv[11]=+access+r
+argv[12]=-exit
+96 profile - 100
+          CPU/Mem usage: 0.040 sys,  0.060 user,  187.01M sys,  0.00M vm
+97 VC callback profile - scalar:0 vector:0
+98 Thu Mar 22 11:31:08 2018
+99 pliAppInit
+100 *Verdi3* : Enable Parallel Dumping.
+101 pliAppMiscSet: New Sim Round
+102 pliEntryInit
+103 LIBSSCORE=found /home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_ius141.so through $LD_LIBRARY_PATH setting.
+104 argv[0]: huffman.fsdb
+105 Catch signal 11. Stack trace follows:
+#0  0x00000032156db670 in __read_nocancel () from /lib64/libc.so.6
+#1  0x0000003215671ca8 in _IO_new_file_underflow () from /lib64/libc.so.6
+#2  0x00000032156737ae in _IO_default_uflow_internal () from /lib64/libc.so.6
+#3  0x0000003215667e8a in _IO_getline_info_internal () from /lib64/libc.so.6
+#4  0x0000003215666ce9 in fgets () from /lib64/libc.so.6
+#5  0x00007f9d58c3f636 in ndpGetCallStack () from /home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_ius141.so
+#6  0x00007f9d58c7155a in pliAppDbg_SigHandler () from /home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_ius141.so
+#7  0x00007f9d58c3f02f in catchSignalCB () from /home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_ius141.so
+#8  <signal handler called>
+#9  0x0000000004ced770 in ?? ()
+#10 0x0000000004ced760 in ?? ()
+#11 0x0000000000000000 in ?? ()
+106 FSDB Dumper for IUS, Release Verdi3_J-2014.12-SP3, Linux x86_64/64bit, 07/05/2015
+107 (C) 1996 - 2015 by Synopsys, Inc.
+108 sps_call_fsdbDumpfile at 0 : /home/yutongshen/IC_contest/ICContest106/sim/tb.v(65)
+109 argv[0]: huffman.fsdb
+110 *Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+111 *Verdi3* : Create FSDB file 'huffman.fsdb'
+112 sps_call_fsdbDumpvars at 0 : /home/yutongshen/IC_contest/ICContest106/sim/tb.v(66)
+113 *Verdi3* : Begin traversing the scopes, layer (0).
+114 *Verdi3* : End of traversing.
+115 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.050 sys,  0.080 user,  348.18M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  8.93M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  8.93M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  8.93M sys,  0.00M vm
+
+          Count usage: 167 var,  132 idcode,  132 callback
+                 incr: 167 var,  132 idcode,  132 callback
+                 accu: 167 var,  132 idcode,  132 callback
+            accu incr: 167 var,  132 idcode,  132 callback
+116 VC callback profile - scalar:0 vector:0
+117 Thu Mar 22 11:31:09 2018
+118 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.050 sys,  0.080 user,  349.24M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  9.98M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 167 var,  132 idcode,  132 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 167 var,  132 idcode,  132 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+119 VC callback profile - scalar:33 vector:99
+120 Thu Mar 22 11:31:09 2018
+121 sps_call_fsdbDumpMDA at 0 : /home/yutongshen/IC_contest/ICContest106/sim/tb.v(67)
+122 *Verdi3* : Begin traversing the MDAs, layer (0).
+123 *Verdi3* : Enable +mda and +packedmda dumping.
+124 *Verdi3* : End of traversing the MDAs.
+125 fsdbDumpMDA traverse var: profile - 
+          CPU/Mem usage: 0.050 sys,  0.090 user,  349.45M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  0.21M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  0.21M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  0.21M sys,  0.00M vm
+
+          Count usage: 347 var,  278 idcode,  278 callback
+                 incr: 180 var,  146 idcode,  146 callback
+                 accu: 180 var,  146 idcode,  146 callback
+            accu incr: 180 var,  146 idcode,  146 callback
+126 VC callback profile - scalar:33 vector:99
+127 Thu Mar 22 11:31:09 2018
+128 fsdbDumpMDA: profile - 
+          CPU/Mem usage: 0.050 sys,  0.090 user,  349.45M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  0.21M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+
+          Count usage: 347 var,  278 idcode,  278 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 180 var,  146 idcode,  146 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+129 VC callback profile - scalar:33 vector:279
+130 Thu Mar 22 11:31:09 2018
+131 End of simulation at 250000
+132 VC callback profile - scalar:1407 vector:2832
+133 Thu Mar 22 11:31:09 2018
+134 Parallel profile    -  Flush:4 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+135 SimExit
+136 Sim process exit

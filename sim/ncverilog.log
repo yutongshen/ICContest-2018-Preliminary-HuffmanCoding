@@ -1,0 +1,63 @@
+ncverilog(64): 14.10-s005: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncverilog	14.10-s005: Started on Mar 22, 2018 at 11:31:08 CST
+ncverilog
+	-f pre_sim_4.f
+		./tb.v
+		../src/huffman.v
+		../src/Counter.v
+		../src/Sorting.v
+		../src/TreeMaker.v
+		../src/CodeSender.v
+		+define+tb4
+		+nc64bit
+		+access+r
+		-exit
+Recompiling... reason: file '../src/TreeMaker.v' is newer than expected.
+	expected: Thu Mar 22 11:29:22 2018
+	actual:   Thu Mar 22 11:31:06 2018
+file: ../src/TreeMaker.v
+	module worklib.TreeMaker:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.TreeMaker:v <0x66b9ba04>
+			streams:  41, words: 19491
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  6       6
+		Registers:               79      79
+		Scalar wires:            11       -
+		Vectored wires:          49       -
+		Always blocks:           33      33
+		Initial blocks:           7       7
+		Cont. assignments:       16      16
+		Pseudo assignments:       1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.tb:v
+Loading snapshot worklib.tb:v .................... Done
+*Verdi3* Loading libsscore_ius141.so
+*Verdi3* : Enable Parallel Dumping.
+ncsim> source /home/nfs_cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi3_J-2014.12-SP3, Linux x86_64/64bit, 07/05/2015
+(C) 1996 - 2015 by Synopsys, Inc.
+*Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi3* : Create FSDB file 'huffman.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : End of traversing.
+*Verdi3* : Begin traversing the MDAs, layer (0).
+*Verdi3* : Enable +mda and +packedmda dumping.
+*Verdi3* : End of traversing the MDAs.
+./pattern4.dat and ./golden4.dat were used for this simulation.
+Check CNT : PASS
+Check HC : PASS
+Check M : PASS
+You PASS the contest now.
+Simulation complete via $finish(1) at time 2500 NS + 0
+./tb.v:175                  $finish;
+ncsim> exit
+TOOL:	ncverilog	14.10-s005: Exiting on Mar 22, 2018 at 11:31:09 CST  (total: 00:00:01)

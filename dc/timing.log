@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : huffman
+Version: D-2010.03-SP5
+Date   : Thu Mar 22 02:12:56 2018
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: reset (input port clocked by clk)
+  Endpoint: tm1/obj_reg[1][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  huffman            tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 r
+  reset (in)                               0.06       5.56 r
+  tm1/reset (TreeMaker)                    0.00       5.56 r
+  tm1/U81/Y (OR2X1)                        0.38       5.94 r
+  tm1/U78/Y (INVX6)                        0.28       6.23 f
+  tm1/U17/Y (NAND2X2)                      0.32       6.55 r
+  tm1/U80/Y (CLKINVX1)                     0.51       7.05 f
+  tm1/U84/Y (AOI21X1)                      0.36       7.41 r
+  tm1/U27/Y (OA21X4)                       0.40       7.82 r
+  tm1/U144/Y (OAI21XL)                     0.31       8.12 f
+  tm1/U3/Y (INVX4)                         0.34       8.46 r
+  tm1/U16/Y (NAND2X2)                      0.25       8.71 f
+  tm1/U35/Y (AND2X2)                       0.45       9.17 f
+  tm1/U211/Y (AOI222XL)                    0.69       9.86 r
+  tm1/U10/Y (INVX1)                        0.20      10.06 f
+  tm1/obj_reg[1][1]/D (DFFX1)              0.00      10.06 f
+  data arrival time                                  10.06
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.50      10.50
+  clock uncertainty                       -0.10      10.40
+  tm1/obj_reg[1][1]/CK (DFFX1)             0.00      10.40 r
+  library setup time                      -0.32      10.08
+  data required time                                 10.08
+  -----------------------------------------------------------
+  data required time                                 10.08
+  data arrival time                                 -10.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+1

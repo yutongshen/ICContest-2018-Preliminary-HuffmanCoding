@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : area
+Design : huffman
+Version: D-2010.03-SP5
+Date   : Thu Mar 22 02:12:56 2018
+****************************************
+
+Library(s) Used:
+
+    slow (File: /home/nfs_cad/lib/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db)
+
+Number of ports:              157
+Number of nets:               276
+Number of cells:                5
+Number of references:           5
+
+Combinational area:       12374.046048
+Noncombinational area:    13217.653650
+Net Interconnect area:    240241.232758
+
+Total cell area:          25591.699698
+Total area:               265832.932456
+1

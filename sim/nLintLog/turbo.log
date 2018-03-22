@@ -1,0 +1,19 @@
+Command Line: /home/nfs_cad/synopsys/verdi/cur/nLint/platform/LINUXAMD64/bin/nLint
+uname(Linux ideal125 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64)
+nLint Release J-2014.12-SP3 (RH Linux x86_64/64bit) 06/21/2015
+(C) 1996 - 2015 by Synopsys, Inc.
+All Rights Reserved.
+www.synopsys.com
+
+This program is proprietary and confidential information of Synopsys, Inc. and 
+may be used and disclosed only as authorized in a license agreement controlling 
+such use and disclosure.
+
+Licensed Products communicate with Synopsys servers for the purpose of providing
+software updates, detecting software piracy and verifying that customers are 
+using Licensed Products in conformity with the applicable License Key for such 
+Licensed Products. Synopsys will use information gathered in connection with 
+this process to deliver software updates and pursue software pirates and 
+infringers.
+
+au time 0.015488 0.002000 0.004000 delta 589824 589824 total 6185976 6185976

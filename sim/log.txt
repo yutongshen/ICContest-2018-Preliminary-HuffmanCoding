@@ -1,0 +1,11 @@
+ncverilog(64): 14.10-s005: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+Recompiling... reason: file '../src/Counter.v' is newer than expected.
+	expected: Wed Mar 21 09:21:08 2018
+	actual:   Wed Mar 21 09:24:39 2018
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+Sorting s1(.clk       (clk       ), 
+         |
+ncelab: *E,CUVMUR (../src/huffman.v,26|9): instance 'tb.u_huffman@huffman<module>.s1' of design unit 'Sorting' is unresolved in 'worklib.huffman:v'.
+ncverilog: *E,ELBERR: Error during elaboration (status 1), exiting.
